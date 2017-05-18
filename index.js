@@ -15,17 +15,57 @@ console.log(pet);
 *
 * Each value should be a String. 
 **/
-
-
+var firstName = "Kristin";
+console.log(firstName);
+var lastName = "Treder";
+console.log(lastName);
+var birthPlace = "Stevens Point";
+console.log(birthPlace);
+var favoriteFood = "lasagna";
+console.log(favoriteFood);
+var bestMovie = "Don't Tell Mom The Babysitter's Dead";
+console.log(bestMovie);
+var favLoveSong = "Hello by Adele";
+console.log(favLoveSong);
+var cuteAnimal = "Boo the Pomeranian";
+console.log(cuteAnimal);
+var favColor = "aqua";
+console.log(favColor);
+var favSneaker = "Louboutins";
+console.log(favSneaker);
 /**
-* #2
-* Variables with a Number value
-*
 * Declare variables named `favoriteNumber`, `currentYear`, `thatOnePrinceSong`, 'tokyoOlympics`, `mariahCareyAge`, `currentTemp`, `studentsInClass`, `numOfJapanPrefectures`, `currentIphoneModel` and `shoeSize`.     
 *
 * Each value should be a Number
 **/
+var favoriteNumber = 21;
+console.log(favoriteNumber);
+var currentYear = 2017;
+console.log(currentYear);
+var thatOnePrinceSong = 1999;
+console.log(thatOnePrinceSong);
+var tokyoOlympics = 2020;
+var coffeeShop = "Coffee Talk";
+console.log(coffeeShop);
 
+/**
+* #2
+* Variables with a Number value
+**/
+
+console.log(tokyoOlympics);
+var mariahCareyAge = 47;
+console.log(mariahCareyAge);
+var currentTemp =  75;
+console.log(currentTemp);
+var studentsInClass = 3;
+console.log(studentsInClass);
+var numOfJapanPrefectures = 47;
+console.log(numOfJapanPrefectures);
+var currentIphoneModel = 7;
+console.log(currentIphoneModel);
+var shoeSize = 9;
+console.log(shoeSize);
 
 /**
 * #3
@@ -35,6 +75,26 @@ console.log(pet);
 *
 * Each value should be a Boolean
 **/
+var likesMcDonalds = true;
+console.log(likesMcDonalds);
+var watchedMrRobot = false;
+console.log(watchedMrRobot);
+var ranMarathon = false;
+console.log(ranMarathon);
+var wrestledABear = false;
+console.log(wrestledABear);
+var lovesDonuts = false;
+console.log(lovesDonuts);
+var readHarryPotter = false;
+console.log(readHarryPotter);
+var sleptInClass = false;
+console.log(sleptInClass);
+var drinksCoffee = true;
+console.log(drinksCoffee);
+var shopsAtWholeFoods = true;
+console.log(shopsAtWholeFoods);
+var ownsRedShoes = false;
+console.log(ownsRedShoes);
 
 
 /**
@@ -45,13 +105,19 @@ console.log(pet);
 *
 * Each value should be Null 
 **/
+var completedPrepClass = null;
+console.log(completedPrepClass);
+var traveledToMars = null;
+console.log(traveledToMars);
+var scoredTDinNFL = null;
+console.log(scoredTDinNFL);
 
 
 /*
 #5. 
 * What is the difference between null and undefined? Type your answer in two or three commented-out sentences.
 */
-
+//Null is a container with nothing in it while Undefined means it does not exist.
 
 /**
 * #6
@@ -64,18 +130,34 @@ console.log(pet);
 * Declare a variable named `duets` and assign it an array containing 3 nested arrays, each containing the names of 2 singers or bands.
 * Declare a variable named `mixPlate` and assign it an array containing different data types of your choosing.
 **/
+var plateLunch = ["mac salad", "lomi lomi salmon", "kalua pork", "kimchee", "okinawa sweet potatoes"];
+console.log(plateLunch);
+var fruitBasket = ["bananas", "apples", "watermelon", "strawberries", "blueberries"];
+console.log(fruitBasket);
+var westCoast = ["Washington", "Oregon", "California", "Arizona", "Nevada"];
+console.log(westCoast);
+var lotteryResult = [3, 8, 23, 54, 87];
+console.log(lotteryResult);
+var duets = [["Hall", "Oates"], ["Tupac", "Dre"], ["Dolly Pardon", "Kenny Rogers"]];
+console.log(duets);
+var mixPlate = ["rice", 2, null, undefined, true, [3, 4]];
+console.log(mixPlate);
 
 
 
 /*7
 * Accessing Values in Arrays
-
+*/
 var partyList = ["carrot cake", "rocky road ice cream", "mochiko chicken", "orange tang", "lemon bars"];
 
+/*
 What is the length of this array? Please print the length (a number) to the console.
 What is the index position of carrot cake? Please print this item to the console.
 What is the index position of lemon bars? Please print this item to the console.
 */
+console.log(partyList.length);
+console.log(partyList[0]);
+console.log(partyList[4]);
 
 
 
@@ -92,6 +174,12 @@ What is the index position of lemon bars? Please print this item to the console.
 *Declare a new variable, `mariahStory`. Assign it the value of concatenating the variables `mariahCareyAge`, `favSneaker`, `favLoveSong` and `coffeeShop` to create the following sentence:
 At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 */
+var fullName = firstName + " " + lastName;
+console.log(fullName);
+var whereFrom = fullName + " is from " + birthPlace + ".";
+console.log(whereFrom);
+var mariahStory = "At the age of " + mariahCareyAge + ", Mariah Carey, wearing her fancy " + favSneaker + ", sang " + favLoveSong + " at the " + coffeeShop + ".";
+console.log(mariahStory);
 
 
 
@@ -106,11 +194,25 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * Mulitply the two variables and store it to a new variable named `product`.
 * Divide the two variables and store it to a new variable named `quotient`.
 * What is the remainder when you divide num1 by num2? Print your answer to the console.
+*/ 
+
+var num1 = 2;
+var num2 = 3;
+var sum = num1 + num2;
+var difference = num1 - num2;
+var product = num1*num2;
+var quotient = num1/num2;
+
+console.log(num1);
+console.log(num2);
+console.log(sum);
+console.log(difference);
+console.log(product);
+console.log(quotient);
+console.log(num1%num2);
 
 
-
-/**
-* #10
+/** #10
 * Comparisons & Logic
 * Variables with the outcome of a comparison operation:
 *
@@ -121,18 +223,42 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * Declare a variable named `sameNum` and compare a string "5" and a number 5 using strict equality.
 * Declare another variable named `sameNumba` and compare a string "5" and a number 5 using equality.
 * Print both variables to the console. If the answers are different, why? If not, why not? Write you answer two or three commented-out sentences.
+*/
 
+var isStrictlyEqual = "Tacocat" === "tacocat";
+var isLooselyEqual = "Tacocat" == "tacocat";
 
+console.log(isStrictlyEqual);
+console.log(isLooselyEqual);
 
+//Both are false because JavaScript is case-sensitive.
+
+var sameNum = "5" === 5;
+var sameNumba = "5" == 5;
+
+console.log(sameNum);
+console.log(sameNumba);
+
+//They are different because a string can not be strictly equal to a number but they can be equal in a "softer sense" if the text is the same.
+
+/*
 * Use the logical && or || and compare the following:
 * 3>2 3<1 (use or)
 * 3>2 6>3 (use and)
 * 7>2 8<5 (use and)
 * Declare variables and print the results to the console. What are the differences between the three and why?
+/**/
+
+var A = 3>2 || 3<1;
+var B = 3>2 && 6>3;
+var C = 7>2 && 8<5;
+
+console.log(A);
+console.log(B);
+console.log(C);
 
 
-
-/**
+/*
 * #11
 * Assignments
 * Variables with the outcome of an assignment operation:
@@ -143,7 +269,17 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 
 * Write 5 different assignment statements and `console.log()` the value of the variable after each
 * assignment statement to show the current value. REMEMBER: an assignment is DIFFERENT from a declaration.
-*
+*/
+var myBox = 13;
+console.log(myBox);
+myBox++;
+console.log(myBox);
+myBox*=8;
+console.log(myBox);
+myBox-=5;
+console.log(myBox);
+myBox--;
+console.log(myBox);
 
 /**
 * Final Boss 

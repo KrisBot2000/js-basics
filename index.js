@@ -102,6 +102,12 @@ var scoredTDinNFL = null;
 * Declare a variable named `mixPlate` and assign it an array containing different data types of your choosing.
 **/
 
+var plateLunch = ['poke', 'pizza', 'pasta', 'potatoes', 'pico de gallo'];
+var fruitBasket = ['orange', 'apple', 'banana', 'grapes', 'watermelon'];
+var westCoast = ['California', 'Oregon', 'Washington', 'Nevada', 'Arizona'];
+var lotteryResult = [13, 8, 34, 56, 99];
+var duets = [['Hall', 'Oates'], ['Tupac', 'Biggie'], ['Kris', 'Kross']];
+var mixPlate = ['string', 23, null, undefined, true, [8,9], {}];
 
 
 /*7

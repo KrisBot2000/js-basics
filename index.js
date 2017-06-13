@@ -57,6 +57,17 @@ var shoeSize = 9;
 * Each value should be a Boolean
 **/
 
+var likesMcDonalds = true;
+var watchedMrRobot = false;
+var ranMarathon = false;
+var wrestledABear = false;
+var lovesDonuts = false;
+var readHarryPotter = false;
+var sleptInClass = false;
+var drinksCoffee = true;
+var shopsAtWholeFoods = true;
+var ownsRedShoes = false;
+
 
 /**
 * #4

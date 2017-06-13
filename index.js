@@ -1,4 +1,4 @@
-/* Variables and Data Types */
+cd/* Variables and Data Types */
 /*Console.log each variable and test your code in the terminal using the Node REPL*/
 
 /*i.e.*/
@@ -13,15 +13,25 @@ console.log(pet);
 * Declare variables named `firstName`, `lastName`, `birthPlace`, `favoriteFood`, `bestMovie`, `favLoveSong`, `cuteAnimal`, `favColor`, `favSneaker`, `coffeeShop`.
 * Assign values to these variables with your own data.
 *
-* Each value should be a String. 
+* Each value should be a String.
 **/
+var firstName = 'Kristin';
+var lastName = 'Treder';
+var birthPlace = 'Stevens Point';
+var favoriteFood = 'lasagna';
+var bestMovie = 'Trainwreck';
+var favLoveSong = 'Corazon Sin Cara';
+var cuteAnimal = 'piggy';
+var favColor = 'teal';
+var favSneaker = 'Converse';
+var coffeeShop = 'Coffee Talk';
 
 
 /**
 * #2
 * Variables with a Number value
 *
-* Declare variables named `favoriteNumber`, `currentYear`, `thatOnePrinceSong`, 'tokyoOlympics`, `mariahCareyAge`, `currentTemp`, `studentsInClass`, `numOfJapanPrefectures`, `currentIphoneModel` and `shoeSize`.     
+* Declare variables named `favoriteNumber`, `currentYear`, `thatOnePrinceSong`, 'tokyoOlympics`, `mariahCareyAge`, `currentTemp`, `studentsInClass`, `numOfJapanPrefectures`, `currentIphoneModel` and `shoeSize`.
 *
 * Each value should be a Number
 **/
@@ -31,7 +41,7 @@ console.log(pet);
 * #3
 * Variables with a Boolean value
 *
-* Declare variables named `likesMcDonalds`, `watchedMrRobot`, `ranMarathon`, `wrestledABear`, `lovesDonuts`, `readHarryPotter`, `sleptInClass`, `drinksCoffee`, `shopsAtWholeFoods` and `ownsRedShoes`.     
+* Declare variables named `likesMcDonalds`, `watchedMrRobot`, `ranMarathon`, `wrestledABear`, `lovesDonuts`, `readHarryPotter`, `sleptInClass`, `drinksCoffee`, `shopsAtWholeFoods` and `ownsRedShoes`.
 *
 * Each value should be a Boolean
 **/
@@ -43,12 +53,12 @@ console.log(pet);
 *
 * Declare variables named `completedPrepClass`, `traveledToMars` and `scoredTDinNFL`.
 *
-* Each value should be Null 
+* Each value should be Null
 **/
 
 
 /*
-#5. 
+#5.
 * What is the difference between null and undefined? Type your answer in two or three commented-out sentences.
 */
 
@@ -56,7 +66,7 @@ console.log(pet);
 /**
 * #6
 * Variables with an Array value
-* 
+*
 * Declare a variable named 'plateLunch` and assign it an array containing 5 of your favorite lunch items.
 * Declare a variavle named `fruitBasket` and assign it an array containing 5 fruits of your choosing.
 * Declare a variable named `westCoast` and assign it an array containing states found on the west coast of the US.
@@ -80,15 +90,15 @@ What is the index position of lemon bars? Please print this item to the console.
 
 
 /*
-* #8 
-* Concatenation 
+* #8
+* Concatenation
 * Concatenate the variables `firstName` and `lastName` and store this to a new variable called `fullName`.
 
 * Declare a new variable, `whereFrom`, and assign it the value of a string using the variables `fullName` and `birthPlace`:
  xx xx is from xx.
  e.g.
  Usain Bolt is from Jamaica.
- 
+
 *Declare a new variable, `mariahStory`. Assign it the value of concatenating the variables `mariahCareyAge`, `favSneaker`, `favLoveSong` and `coffeeShop` to create the following sentence:
 At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 */
@@ -146,7 +156,7 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 *
 
 /**
-* Final Boss 
+* Final Boss
 * Additional exercises designed to further challenge you and give you a jump start on the next topic that'll be covered.
 * Function - A block of code designed to perform a particular task. It allows you to reuse code.
 *

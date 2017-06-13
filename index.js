@@ -78,6 +78,10 @@ var ownsRedShoes = false;
 * Each value should be Null
 **/
 
+var completedPrepClass = null;
+var traveledToMars = null;
+var scoredTDinNFL = null;
+
 
 /*
 #5.

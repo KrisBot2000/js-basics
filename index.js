@@ -36,6 +36,17 @@ var coffeeShop = 'Coffee Talk';
 * Each value should be a Number
 **/
 
+var favoriteNumber = 21;
+var currentYear = 2017;
+var thatOnePrinceSong = 1999;
+var tokyoOlympics = 2020;
+var mariahCareyAge = 47;
+var currentTemp = 79;
+var studentsInClass = 10;
+var numOfJapanPrefectures = 47;
+var currentIphoneModel = 7;
+var shoeSize = 9;
+
 
 /**
 * #3

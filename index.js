@@ -88,6 +88,7 @@ var scoredTDinNFL = null;
 * What is the difference between null and undefined? Type your answer in two or three commented-out sentences.
 */
 
+//Null is a container that is explicitly and intentionally empty while undefined is not intentionally empty and is returned when there is no value.
 
 /**
 * #6
